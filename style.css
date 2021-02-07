@@ -1,0 +1,31 @@
+#display img{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.container{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#input-meal{
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    background-color: lightcyan;
+}
+.button{
+    background-color: tomato;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    width:80px ;
+}
+#display{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.hide{
+    display: none;
+}
